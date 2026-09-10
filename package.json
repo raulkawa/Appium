@@ -1,0 +1,20 @@
+{
+  "name": "appium",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "wd": "^1.14.0"
+  },
+  "devDependencies": {
+    "@wdio/appium-service": "^9.4.1",
+    "@wdio/cli": "^9.4.1",
+    "appium": "^2.13.1"
+  }
+}
