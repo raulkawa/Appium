@@ -46,30 +46,24 @@ appium-theapp-mobile-testing/
 
 ## Setup
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/<your-username>/appium-theapp-mobile-testing.git
-   cd appium-theapp-mobile-testing
-   ```
-
-2. **Install dependencies**
+1. **Install dependencies**
    ```bash
    npm install
    ```
 
-3. **Start an Android emulator**
+2. **Start an Android emulator**
    Open Android Studio → Device Manager → launch your AVD (e.g. Pixel 8, API 34).
 
-4. **Install TheApp on the emulator**
+3. **Install TheApp on the emulator**
    Drag-and-drop the `.apk` onto the running emulator, or install via `adb install TheApp.apk`.
 
-5. **Start the Appium server**
+4. **Start the Appium server**
    ```bash
    appium
    ```
    or launch Appium Desktop and click **Start Server** (default: `http://localhost:4723`).
 
-6. **Update capabilities**
+5. **Update capabilities**
    In `src/appiumTest.js`, set the `app` path (and `deviceName` if different) to match your local setup.
 
 ## Running the tests
@@ -119,16 +113,3 @@ All screenshots referenced below live in [`docs/screenshots`](./docs/screenshots
 ## Result
 
 ✅ Login succeeded with valid username & password, and correctly failed (with the expected error) for invalid credentials.
-
-## Team — Group H
-
-- Jasprit Kaur (C0917419)
-- Amandeep Kaur (C0917405)
-- Rahul Shailesh Kawa (C0907637)
-- Harmanjot Singh Dhanoa (C0907635)
-
-Submitted to: Prof. Avtar Singh — SQT 3043, Mobile Application Testing
-
-## License
-
-MIT — feel free to reuse this setup for your own Appium learning projects.
