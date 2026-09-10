@@ -28,10 +28,9 @@ Built as part of **SQT 3043 – Mobile Application Testing**.
 ```
 appium-theapp-mobile-testing/
 ├── README.md
+├── appiumTest.js        # login automation script
+├── package-lock.json
 ├── package.json
-├── .gitignore
-├── src/
-│   └── appiumTest.js        # login automation script
 └── docs/
     └── screenshots/         # environment setup + test run evidence
 ```
